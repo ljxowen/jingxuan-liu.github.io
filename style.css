@@ -76,3 +76,34 @@
 #ey p{
     margin: auto 40px;
 }
+
+@media (max-width: 700px) {
+    .container {
+        display: block;
+    }
+    .left{
+        padding-bottom: 20px;
+    }
+    .me {
+        position: static;
+    }
+    #laurier {
+        display: block;
+    } 
+    #laurier img{
+        float: none;
+    }
+    #mcmaster {
+        display: block;
+    } 
+    #mcmaster img{
+        float: none;
+    }
+    #ey {
+        display: block;
+    }
+    #ey img{
+        float: none;
+    }
+
+}
