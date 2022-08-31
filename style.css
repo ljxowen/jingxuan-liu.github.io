@@ -144,6 +144,7 @@ footer {
     .me {
         position: static;
     }
+
     #laurier {
         display: block;
     } 
@@ -156,6 +157,7 @@ footer {
     #mcmaster img{
         float: none;
     }
+
     #ey {
         display: block;
     }
@@ -163,4 +165,22 @@ footer {
         float: none;
     }
 
+    #cv {
+        display: block;
+    }
+    #cv img{
+        margin: 0 30px;
+    }
+    #nlp {
+        display: block;
+    }
+    #nlp img {
+        margin: 0 40px;
+    }
+    #spaceship {
+        display: block;
+    }
+    #spaceship img {
+        margin: 0 40px;
+    }
 }
