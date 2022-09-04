@@ -29,6 +29,29 @@
     text-decoration: none;
 }
 
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+    padding-top: 30px;
+    text-align: center;
+  }
+  
+  .vertical-menu a {
+  /*    background-color: #eee; Grey background color */
+    color: darkslategray; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: darkslategray; /* Add a green color to the "active/current" link */
+    color: white;
+  }
+
 .right {
     max-width: 1100px;
     justify-content: center;
